@@ -95,7 +95,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='flex fixed flex-col top-[35%] left-2 '>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
@@ -118,7 +118,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3aff68]'>
             <a
               className='flex justify-between items-center w-full text-white'
-              href="http://wa.me/01937013572"
+              href="http://wa.me/+8801937013572"
               target="_blank" rel="noreferrer"
             >
               Whatsapp <FaWhatsapp size={30} />
