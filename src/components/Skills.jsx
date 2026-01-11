@@ -12,10 +12,14 @@ import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 import Express from '../assets/express.png'
 import Figma from '../assets/figma.png'
+import TypeScript from '../assets/typescript.webp'
+import Python from '../assets/python.jpeg'
+import Django from '../assets/django-python-logo.png'
+import Nextjs from '../assets/nextJs.jpeg'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full bg-[#0a192f] text-gray-300 pb-36'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
@@ -44,9 +48,17 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
                   <p className='my-4'>JAVASCRIPT</p>
               </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={TypeScript} alt="HTML icon" />
+                  <p className='my-4'>TYPESCRIPT</p>
+              </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
+                  <p className='my-4'>REACT JS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Nextjs} alt="HTML icon" />
+                  <p className='my-4'>NEXT JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
@@ -63,6 +75,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
                   <p className='my-4'>MONGO DB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Python} alt="HTML icon" />
+                  <p className='my-4'>PYTHON</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Django} alt="HTML icon" />
+                  <p className='my-4'>DJANGO</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
